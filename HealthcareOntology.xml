@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://example.org/healthcare_ontology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://example.org/healthcare_ontology">
+    <Declaration><Class IRI="#Person"/></Declaration>
+    <Declaration><Class IRI="#Patient"/></Declaration>
+    <Declaration><Class IRI="#Doctor"/></Declaration>
+    <Declaration><Class IRI="#Nurse"/></Declaration>
+    <Declaration><Class IRI="#Treatment"/></Declaration>
+    <Declaration><Class IRI="#Medication"/></Declaration>
+    <Declaration><Class IRI="#Surgery"/></Declaration>
+    <Declaration><Class IRI="#Diagnosis"/></Declaration>
+    <Declaration><Class IRI="#Disease"/></Declaration>
+    <Declaration><Class IRI="#Hospital"/></Declaration>
+    <Declaration><Class IRI="#Department"/></Declaration>
+    <Declaration><Class IRI="#MedicalRecord"/></Declaration>
+</Ontology>
