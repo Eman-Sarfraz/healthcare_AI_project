@@ -16,7 +16,7 @@ Extensive Symptom List: Covers 20+ conditions, including flu, diabetes, anxiety,
 Ontology Integration: Uses owlready2 to load and interact with the HealthcareOntology.xml file.
 Custom Styling: Modern design with a gradient background, rounded buttons, and clear typography.
 Clear Functionality: Includes a "Clear Inputs" button for improved user experience.
-Copyable Results: Diagnosis output includes a copy button for convenience.
+
 
 📋 Prerequisites
 To run this project locally, ensure you have the following installed:
@@ -25,11 +25,6 @@ Python 3.8+
 Required Python packages (see Installation)
 A web browser for accessing the Gradio interface
 
-🖥️ Installation
-
-Clone the Repository:
-git clone https://github.com/your-username/medical-diagnosis-system.git
-cd medical-diagnosis-system
 
 
 Create a Virtual Environment (optional but recommended):
@@ -48,12 +43,6 @@ Ensure Ontology File:Place the HealthcareOntology.xml file in the project root d
 
 Run the Application:Execute the Python script to launch the Gradio interface:
 python medical_diagnosis_app.py
-
-
-Access the Interface:
-
-A URL (e.g., http://127.0.0.1:7860) will be displayed in the terminal.
-Open this URL in your web browser to access the diagnosis system.
 
 
 Interact with the System:
